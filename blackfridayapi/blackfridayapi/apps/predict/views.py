@@ -25,7 +25,7 @@ class PredictionAPIView(APIView):
             # 调用你的预测函数，这里可能需要传入其他参数如project, endpoint_id等
             result = send_prediction_request(
                 project="746866758104",
-                endpoint_id="8049540020110884864",
+                endpoint_id="5133696755900088320",
                 instance_dict=instance_dict)
 
             return Response({"prediction": result}, status=status.HTTP_200_OK)
